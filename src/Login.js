@@ -26,6 +26,7 @@ const Login = () => {
 
 <form onSubmit={handleSubmit}>
 <div>
+<p>{message}</p>
   <label>Username</label>
   <br />
   <input
@@ -50,6 +51,7 @@ const Login = () => {
 </div>
 <br />
 <button type="submit">Submit</button>
+
 </form>
         )}
         
