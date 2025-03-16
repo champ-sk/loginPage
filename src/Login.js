@@ -26,7 +26,7 @@ const Login = () => {
         {/* ✅ FIX: Associate the label with input using htmlFor */}
         <div>
           <label htmlFor="username">Username</label>
-          <br />
+         
           <input
             type="text"
             value={userName}
@@ -40,7 +40,7 @@ const Login = () => {
 
         <div>
           <label htmlFor="password">Password</label>
-          <br />
+          
           <input
             type="password"
             value={password}
